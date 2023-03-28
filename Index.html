@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpiort" content="width-device-width, initial-scale=1.0">
+    <title>Responsive Personal Portofolio Website Design</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Mika Portofolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="services">Services</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href ="contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me!</h3>
+            <h1>Misono Mika</h1>
+            <h3>And I'm a member of <span>Tea Party</span></h3>
+            <p>I'm just happy to be sensei princess! i hope that i can always spend time with him</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/1854915553426146499/2038A9C13B9419FDDF8E0D86572A1EC2D447B850/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://cdn.myanimelist.net/images/characters/4/503186.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Mika</span></h2>
+            <h3>Tea Party</h3>
+            <p>A member of Trinity's student council, Tea Party, and one of its three student council presidents. She is the childhood friend of Nagisa and has known her for ten years. She calls her Nagi-chan. Unlike the other two presidents of the Tea Party, she isn't particularly bright when it comes to politics, but her strength is not to be underestimated</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Web Development</h3>
+                <p>forget about this</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>this too</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart'></i>
+                <h3>Digital Marketing</h3>
+                <p>this section just a decor :p</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portofolio" id="portofolio">
+        <h2 class="heading">Part of <span>Me</span></h2>
+
+        <div class="portofolio-container">
+            <div class="portofolio-box">
+                <img src="https://i1.sndcdn.com/artworks-G5yMfVybHTHVSYwL-nW4mTQ-t500x500.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Kivotos City</h4>
+                    <p>Kivotos is home to thousands of different academies.</p>
+                    <a href="#"><i class="bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="https://ih1.redbubble.net/image.2014825114.5103/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Trinity General School</h4>
+                    <p>A seemly religious school in Kivotos.</p>
+                    <a href="#"><i class="bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="https://i.redd.it/hcfm0lxwldk91.jpg" alt="">
+                <div class="portofolio-layer">
+                    <h4>Tea Party</h4>
+                    <p>Trinity General School student council</p>
+                    <a href="#"><i class="bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portofolio-box">
+                <img src="https://cdnb.artstation.com/p/assets/images/images/057/221/965/large/kellvedon682-lanchestermk1-2.jpg?1671072195&dl=1" alt="">
+                <div class="portofolio-layer">
+                    <h4>Quis Ut Deus</h4>
+                    <p>A submachine gun that Mika loves.</p>
+                    <a href="#"><i class="bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Need <span>Help?</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Created by @anhaga_esa221</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-arrow-to-top"></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>     
+    <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html> 
